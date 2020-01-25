@@ -1,24 +1,24 @@
 {{ define "main" }}
 <main class="page-main pa4" role="main">
-  <section class="page-content mw9 center">
+  <section class="page-content mw12 center">
     <div class="flex-l items-center">
       <div class="mh5-l w-50-l">
+<!--        {{ with .Params.images }}{{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}"/>{{ end }}{{ end }}-->
         {{ with .Params.title }}<h1 class="f2 f1-m f-subheadline-l fw5-ns mv4 lh-solid tracked-tight">{{ . }}</h1>{{ end }}
         {{ with .Params.subtitle }}<h2 class="f7 fw7 measure mv0 ttu tracked">{{ . }}</h2>{{ end }}
         {{ with .Params.description }}<p class="f4 measure mv4 lh-copy black-50">{{ . | markdownify }}</p>{{ end }}
         {{ if .Params.show_action_link }}<a class="action {{ .Params.action_type }}" href="{{ .Params.action_link }}">{{ .Params.action_label | safeHTML }}</a>{{ end }}
       </div>
-      <div class="tr w-50-l">
+      <div class="blog-content w-50-l">
+              <h6 class="f7 fw7 black-20 mt4 tracked ttu lh-title">Recent Posts</h6>
 <!--
       {{ with .Params.images }}
         {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}"/>{{ end }}
       {{ end }}
 -->
-    {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
-    {{ range $paginator.Pages }}
-      {{ .Render "summary"}}
+    {{ range first 3 (where .Site.Pages "Section" "blog") }}
+      {{ .Render "recents"}}
     {{ end }}
-    {{ partial "shared/list-pagination.html" . }}
       </div>
     
 <!--

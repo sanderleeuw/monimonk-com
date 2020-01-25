@@ -1,16 +1,16 @@
 header:
-  - name: Home
-    title: Home Page
-    url: /
-  - name: About
-    title: About Blogophonic
-    url: /about/
+  - name: Get Started
+    title: Get Started
+    url: /get_started/
   - name: Blog
     title: Blog
     url: /blog/
-  - name: Contact
-    title: Contact Form
-    url: /contact/
+  - name: Guides
+    title: Guides
+    url: /guides/
+  - name: About
+    title: About MoniMonk
+    url: /about/
   - name: Elements
     title: Element Page
     url: /elements/

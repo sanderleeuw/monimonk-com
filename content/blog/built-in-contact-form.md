@@ -5,9 +5,6 @@ excerpt: "This theme has a form-to-email feature built in, thanks to the simple 
 date: 2019-07-01
 author: "Eric Anderson"
 draft: false
-images:
-  - /blog/assets/built-in-contact-form-thumbnail.png
-  - /blog/assets/built-in-contact-form-feature.png
 series:
   - Getting Started
 tags:
