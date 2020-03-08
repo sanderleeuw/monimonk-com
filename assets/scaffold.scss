@@ -32,6 +32,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
   @extend .#{$headingFontFamily}, .#{$headingColor};
 }
+
+.marker {
+    display: table;
+    background: url(/img/monimonk_stroke.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+padding: 0px 0;
+    }
+
 .f-headline,
 .f-subheadline {
   @extend .#{$headlineColor} ;
@@ -201,37 +210,37 @@ form {
   @extend .w-100 ;
 
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(3, auto);
   grid-auto-flow: dense;
-  grid-gap: 0px;
+  grid-gap: 20px;
   margin: 0px auto;
   max-width: 1440px;
 }
 .site-header {
-  grid-column: 1 / 7;
+  grid-column: 1 / 8;
 }
 .page-main {
-  grid-column: 1 / 7;
+  grid-column: 1 / 8;
 }
 .site-footer {
-  grid-column: 1 / 7;
+  grid-column: 1 / 8;
 }
 
 .list-sidebar {
   .page-main {
-    grid-column: 3 / 7;
+    grid-column: 1 / 6;
   }
   .page-sidebar {
-    grid-column: 1 / 3;
+    grid-column: 6 / 8;
   }
 }
 .single-sidebar {
   .page-main {
-    grid-column: 1 / 5;
+    grid-column: 1 / 6;
   }
   .page-sidebar {
-    grid-column: 5 / 7;
+    grid-column: 6 / 8;
   }
 }
 
@@ -252,19 +261,19 @@ form {
   .list-sidebar {
     .page-main,
     .page-sidebar {
-      grid-column: 1 / 7;
+      grid-column: 1 / 8;
     }
     .page-main {
-      order: 3;
+      order: 2;
     }
     .page-sidebar {
-      order: 2;
+      order: 3;
     }
   }
   .single-sidebar {
     .page-main,
     .page-sidebar {
-      grid-column: 1 / 7;
+      grid-column: 1 / 8;
     }
   }
 }

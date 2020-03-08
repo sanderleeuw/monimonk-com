@@ -1,13 +1,13 @@
 header:
+  - name: Home
+    title: Home
+    url: /
   - name: Get Started
     title: Get Started
     url: /get_started/
   - name: Blog
     title: Blog
     url: /blog/
-  - name: Guides
-    title: Guides
-    url: /guides/
   - name: About
     title: About MoniMonk
     url: /about/
