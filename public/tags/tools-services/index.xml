@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools &amp; Services on MoniMonk</title>
+    <link>/tags/tools-services/</link>
+    <description>Recent content in Tools &amp; Services on MoniMonk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/tools-services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flatex takes over DeGiro, now what?</title>
+      <link>/blog/flatex-takes-over-degiro-now-what/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/flatex-takes-over-degiro-now-what/</guid>
+      <description>The Dutch online trading platform DeGiro will join forces with it&#39;s German counterpart Flatex. The Germans will pay roughly 250 Million Euro&#39;s for the takeover, partially in cash, partially in stocks. The takeover is expected to be finalised in Q2 of 2020. Once completed Flatex will service 700.000 customers in multiple European countries and becomes the largest independent broker in Europe 1. Although the future plans and implications are not disclosed, there are definitely some potential benefits and risks with this takeover, especially for current customers of DeGiro.</description>
+    </item>
+    
+  </channel>
+</rss>
